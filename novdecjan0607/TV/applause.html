@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Applause Sign</title>
+</head>
+<body bgcolor="black" marginwidth="0" marginheight="0">
+<script language="JavaScript1.2">
+
+/***********************************************
+* Flexi Slideshow- © Dynamic Drive (www.dynamicdrive.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var variableslide=new Array()
+
+//variableslide[x]=["path to image", "OPTIONAL link for image", "OPTIONAL text description (supports HTML tags)"]
+
+variableslide[0]=['a/black.png', '', '']
+variableslide[1]=['a/black.png', '', '']
+variableslide[2]=['a/off.png', '', '']
+variableslide[3]=['a/off.png', '', '']
+variableslide[4]=['a/black.png', '', '']
+variableslide[5]=['a/black.png', '', '']
+variableslide[6]=['a/off.png', '', '']
+variableslide[7]=['a/off.png', '', '']
+variableslide[8]=['a/black.png', '', '']
+variableslide[9]=['a/black.png', '', '']
+variableslide[10]=['a/off.png', '', '']
+variableslide[11]=['a/off.png', '', '']
+variableslide[12]=['a/1.png', '', '']
+variableslide[13]=['a/2.png', '', '']
+variableslide[14]=['a/3.png', '', '']
+variableslide[15]=['a/4.png', '', '']
+variableslide[16]=['a/1.png', '', '']
+variableslide[17]=['a/2.png', '', '']
+variableslide[18]=['a/3.png', '', '']
+variableslide[19]=['a/4.png', '', '']
+variableslide[20]=['a/1.png', '', '']
+variableslide[21]=['a/2.png', '', '']
+variableslide[22]=['a/3.png', '', '']
+variableslide[23]=['a/4.png', '', '']
+variableslide[24]=['a/1.png', '', '']
+variableslide[25]=['a/2.png', '', '']
+variableslide[26]=['a/3.png', '', '']
+variableslide[27]=['a/4.png', '', '']
+variableslide[28]=['a/off.png', '', '']
+variableslide[29]=['a/off.png', '', '']
+variableslide[30]=['a/off.png', '', '']
+variableslide[31]=['a/off.png', '', '']
+
+//configure the below 3 variables to set the dimension/background color of the slideshow
+
+var slidewidth='768px' //set to width of LARGEST image in your slideshow
+var slideheight='1024px' //set to height of LARGEST iamge in your slideshow, plus any text description
+var slidebgcolor='black'
+
+//configure the below variable to determine the delay between image rotations (in miliseconds)
+var slidedelay=500
+
+////Do not edit pass this line////////////////
+
+var ie=document.all
+var dom=document.getElementById
+
+for (i=0;i<variableslide.length;i++){
+var cacheimage=new Image()
+cacheimage.src=variableslide[i][0]
+}
+
+var currentslide=0
+
+function rotateimages(){
+contentcontainer='<center>'
+if (variableslide[currentslide][1]!="")
+contentcontainer+='<a href="'+variableslide[currentslide][1]+'">'
+contentcontainer+='<img src="'+variableslide[currentslide][0]+'" border="0" vspace="3">'
+if (variableslide[currentslide][1]!="")
+contentcontainer+='</a>'
+contentcontainer+='</center>'
+if (variableslide[currentslide][2]!="")
+contentcontainer+=variableslide[currentslide][2]
+
+if (document.layers){
+crossrotateobj.document.write(contentcontainer)
+crossrotateobj.document.close()
+}
+else if (ie||dom)
+crossrotateobj.innerHTML=contentcontainer
+if (currentslide==variableslide.length-1) currentslide=0
+else currentslide++
+setTimeout("rotateimages()",slidedelay)
+}
+
+if (ie||dom)
+document.write('<div id="slidedom" style="width:'+slidewidth+';height:'+slideheight+'; background-color:'+slidebgcolor+'"></div>')
+
+function start_slider(){
+crossrotateobj=dom? document.getElementById("slidedom") : ie? document.all.slidedom : document.slidensmain.document.slidenssub
+if (document.layers)
+document.slidensmain.visibility="show"
+rotateimages()
+}
+
+if (ie||dom)
+start_slider()
+else if (document.layers)
+window.onload=start_slider
+
+</script>
+</body>
+</html>
