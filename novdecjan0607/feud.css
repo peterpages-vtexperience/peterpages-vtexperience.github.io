@@ -1,0 +1,27 @@
+body { margin-top:0; background-color: black; align: center; }
+
+td.title  { font-size:700%; font-family: Arial Black; COLOR: maroon; }
+
+td.round { font-size:1500%; background-color: black; COLOR: white; }
+
+td.white { font-size:800%; font-family: Arial Black; background-color: black; COLOR: white; }
+
+td.text { font-size:650%; font-family: Arial; background-color: black; COLOR: ff8c00; }
+
+p.maroon { COLOR: maroon; }
+
+p.orange { COLOR: ff8c00; }
+
+td.hugewhite { font-size:2800%; background-color: black; COLOR: white; }
+
+td.gignormouswhite { font-size:3500%; background-color: black; COLOR: white; }
+
+td.hugeteam { font-size:700%; background-color: orange; font-family: Arial Black; COLOR: maroon; }
+
+td.team { font-size:300%; background-color: orange; font-family: Arial Black; COLOR: maroon; }
+
+td.score { font-size:1200%; background-color: black; COLOR: orange; }
+
+td.ready {font-size:500%; COLOR: orange; font-family: Arial Black; }
+
+td { text-align: center; }

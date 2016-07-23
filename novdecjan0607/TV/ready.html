@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="feud.css" />
+<title>Face Off... Like in Face Off!</title>
+<script language="JavaScript1.2">
+var hotkeyl=108
+var destinationl="l.html"
+var hotkeya=97
+var destinationa="a.html"
+if (document.layers)
+document.captureEvents(Event.KEYPRESS)
+function backhome(e){
+if (document.layers){
+if (e.which==hotkeya)
+window.location=destinationa
+}
+if (document.all){
+if (event.keyCode==hotkeya)
+window.location=destinationa
+}
+if (document.layers){
+if (e.which==hotkeyl)
+window.location=destinationl
+}
+else if (document.all){
+if (event.keyCode==hotkeyl)
+window.location=destinationl
+}
+}
+document.onkeypress=backhome
+
+</script>
+</head>
+<body>
+<table width="100%" height="100%">
+<tr><td class="ready" valign="middle">
+&nbsp;
+</td></tr></table></body></html>
