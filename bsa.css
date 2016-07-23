@@ -1,0 +1,41 @@
+body { background-color:darkolivegreen; }
+
+.maroonbg A { COLOR:khaki; TEXT-DECORATION: none; }
+.maroonbg A:hover { TEXT-DECORATION: underline; }
+.maroonbginline A { COLOR:khaki; TEXT-DECORATION: underline; }
+.maroonbginline A:hover { TEXT-DECORATION: none; }
+
+.orangebg { COLOR:khaki; font-family: arial; }
+.orangebg A { COLOR:khaki; TEXT-DECORATION: none }
+.orangebg A:hover { TEXT-DECORATION: underline; }
+.orangebginline { COLOR:khaki; font-family: arial black; }
+.orangebginline A { COLOR:khaki; TEXT-DECORATION: underline; }
+.orangebginline A:hover { TEXT-DECORATION: none; }
+
+.titleblock { background-color:khaki; text-align:center; }
+.titleblock { color:crimson; font-family:Arial Black; }
+.titleblock A { COLOR:crimson; TEXT-DECORATION: none; }
+.titleblock A:hover { TEXT-DECORATION: underline; }
+
+.tagline p { font-style:italic; font-weight:bold; font-size:150%; text-transform:uppercase; }
+
+.intro { text-align:center; color:khaki; font-style:italic; font-weight:bold; font-family:Arial; margin-top: 10px; }
+.intro a { color:khaki; text-decoration:underline; }
+.intro a:hover { text-decoration:none; }
+
+.tdescription { text-align:center; background-color: firebrick; color:khaki; font-family:Arial; }
+.tdescription h3 { margin-top: 10px; }
+.tdescription p { margin-bottom: 10px; }
+.tdescription a { color:khaki; text-decoration:underline; }
+.tdescription a:hover { text-decoration:none; }
+
+.description { text-align:center; color:khaki; font-family:Arial; }
+.description a { color:khaki; text-decoration:underline; }
+.description a:hover { text-decoration:none; }
+
+.section { text-align:left; font-weight: bold; margin-bottom: 20px; margin-top: 25px; }
+.section hr { color: khaki; background-color: khaki; height:2px; border:0px; margin-top:0px; }
+
+.stats { text-align:center; font-size:80%; font-family:Arial; background-color: firebrick; color: khaki; }
+.stats a { color: khaki; font-weight: bold;}
+.stats img { margin-left: 5px; }

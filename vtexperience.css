@@ -1,0 +1,74 @@
+body { background-color:#ff8c00; }
+
+.maroonbg A { COLOR:#ff8c00; TEXT-DECORATION: none; }
+.maroonbg A:hover { TEXT-DECORATION: underline; }
+.maroonbginline A { COLOR: #ff8c00; TEXT-DECORATION: underline; }
+.maroonbginline A:hover { TEXT-DECORATION: none; }
+
+.orangebg { COLOR:maroon; font-family: arial; }
+.orangebg A { COLOR: maroon; TEXT-DECORATION: none }
+.orangebg A:hover { TEXT-DECORATION: underline; }
+.orangebginline { COLOR:maroon; font-family: arial black; }
+.orangebginline A { COLOR: maroon; TEXT-DECORATION: underline; }
+.orangebginline A:hover { TEXT-DECORATION: none; }
+
+.titleblock { background-color:maroon; text-align:center; }
+.titleblock { color:#ff8c00; font-family:Arial Black; }
+.titleblock A { COLOR:#ff8c00; TEXT-DECORATION: none; }
+.titleblock A:hover { TEXT-DECORATION: underline; }
+
+.tagline p { font-style:italic; font-weight:bold; font-size:150%; text-transform:uppercase; }
+
+.intro { text-align:center; color:maroon; font-style:italic; font-weight:bold; font-family:Arial; margin-top: 10px; }
+.intro a { color:maroon; text-decoration:underline; }
+.intro a:hover { text-decoration:none; }
+
+.tdescription { text-align:center; background-color: maroon; color:#ff8c00; font-family:Arial; }
+.tdescription a { color:#ff8c00; text-decoration:underline; }
+.tdescription a:hover { text-decoration:none; }
+
+.description { text-align:center; color:maroon; font-family:Arial; }
+.description a { color:maroon; text-decoration:underline; }
+.description a:hover { text-decoration:none; }
+
+.section { text-align:left; font-weight: bold; margin-bottom: 20px; margin-top: 25px; }
+.section hr { color: maroon; background-color: maroon; height:2px; border:0px; margin-top:0px; }
+
+.stats { text-align:center; font-size:80%; font-family:Arial; background-color: maroon; color: #ff8c00; }
+.stats a { color: #ff8c00; font-weight: bold;}
+.stats img { margin-left: 5px; }
+
+.features td { color:#ff8c00; font-family:Arial; text-align:center; background-color:maroon; }
+
+.title A { COLOR: maroon; font-family:Arial Black; font-size:large; TEXT-DECORATION: none; }
+.title hr { color: maroon; background-color: maroon; height:2px; border:0px; margin-top:0px; }
+
+.bsa { color: khaki; }
+.bsa a { color: khaki; }
+.bsabg { color: khaki; background-color: darkolivegreen; }
+.bsabg a { color: khaki; }
+.bsabg hr { color: khaki; background-color: khaki; height:2px; border:0px; margin-top:0px; }
+
+.work { color: crimson; }
+.work a { color: crimson; }
+.workbg { color: crimson; background-color: lightgrey; }
+.workbg a { color: crimson; }
+.workbg hr { color: crimson; background-color: crimson; height:2px; border:0px; margin-top:0px; }
+
+.tech { color: #ff8c00; }
+.tech a { color: #ff8c00; }
+.techbg { color: #ff8c00; background-color: maroon; }
+.techbg a { color: #ff8c00; }
+.techbg hr { color: #ff8c00; background-color: #ff8c00; height:2px; border:0px; margin-top:0px; }
+
+.venture { color: forestgreen; }
+.venture a { color: forestgreen; }
+.venturebg { color: lightgrey; background-color: forestgreen; }
+.venturebg a { color: lightgrey; margin-top:0px; }
+.venturebg hr { color: lightgrey; background-color: lightgrey; height:2px; border:0px; margin-top:0px; }
+
+.other { color: skyblue; }
+.other a { color: skyblue; }
+.otherbg { color: darkblue; background-color: skyblue; }
+.otherbg a { color: darkblue; }
+.otherbg hr { color: darkblue; background-color: darkblue; height:2px; border:0px; margin-top:0px; }
